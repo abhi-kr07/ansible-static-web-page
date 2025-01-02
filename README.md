@@ -5,7 +5,7 @@ A sample static page with ansible
 Role Name
 =========
 
-A brief description of the role goes here.
+Test
 
 Requirements
 ------------
@@ -27,9 +27,12 @@ Example Playbook
 
 Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
-    - hosts: servers
+Use this in root folder playbook-demo.yml and write below code and run the commmand '''ansible-playbook -i < location of inventory file > playbook-demo.yml
+
+    - hosts: all
+      become: true
       roles:
-         - { role: username.rolename, x: 42 }
+         - Test
 
 License
 -------
