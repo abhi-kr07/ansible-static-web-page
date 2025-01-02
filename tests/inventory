@@ -1,2 +1,5 @@
-localhost
+[web]
+ubuntu@<public-ip>
 
+[db]
+ubuntu@<public-ip>
